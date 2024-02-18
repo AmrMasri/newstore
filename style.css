@@ -414,7 +414,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("img/banner/b14.png");
+    background-image: url(/img/banner/b14.png);
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -427,7 +427,7 @@ body{
 }
 
 #newsletter p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: #818ea0;
 }
@@ -443,20 +443,89 @@ body{
 
 #newsletter input{
     height: 3.125rem;
-    padding: 0 1.25em;
+    padding: 0 1.25rem;
     font-size: 14px;
     width: 100%;
     border: 1px solid transparent;
     border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
     outline: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 #newsletter button{
     background-color: #088178;
     color: #fff;
     white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+} 
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover , 
+footer a:hover,
+footer .deve p:hover{
+    color: #088178;
+}
+
+footer .deve p{
+    width: 100%;
+    text-align: center;
+}
