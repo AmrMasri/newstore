@@ -31,8 +31,8 @@
     </section>
 
     <section id="page-header" class="about-header">
-        <h2>#let's_talk</h2>
-        <p>LEAVE A MESSAGE, We love to hear from you to the E-mail</p>
+        <h2>#WorkWithUs</h2>
+        <p>This website is just for training if you want to work with us call us</p>
     </section>
 
     <section id="contact-details" class="section-p1">
@@ -66,12 +66,12 @@
     </section>
 
     <section id="form-details">
-        <form action="">
+        <form onsubmit="sendEmail(); reset(); return false;">
             <span>LEAVE A MESSAGE</span>
             <h2>We love to hear from you</h2>
             <input type="text" placeholder="Your Name">
             <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Phone">
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <button class="normal">Submit</button>
         </form>
@@ -158,5 +158,11 @@
 
 
     <script src='index.js'></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+
+        }
+    </script>
 </body>
 </html>
