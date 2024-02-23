@@ -33,7 +33,7 @@
 
     <section id="prodetails" class="section-p1" >
         <div class="single-pro-image">
-            <img src="img/products/f1.jpg" width="100%" id="MianImg" alt="">
+            <img src="img/products/f1.jpg" width="100%" id="mainImg" alt="">
 
             <div class="small-img-group">
                 <div class="small-img-col">
@@ -210,23 +210,20 @@
     </div>
 
     </footer>
-
-
     <script>
-        var MainImg = document.getElementById("MainImg");
+        var MainImg = document.getElementById("mainImg");
         var smallimg = document.getElementsByClassName("small-img");
-
 
 smallimg[0].onclick = function(){
       MainImg.src = smallimg[0].src;
-}
-smalling[1].onclick = function(){
+} 
+smallimg[1].onclick = function(){
      MainImg.src = smallimg[1].src;
 }
-smalling[2].onclick = function(){
+smallimg[2].onclick = function(){
      MainImg.src = smallimg[2].src;
 }        
-smalling[3].onclick = function(){
+smallimg[3].onclick = function(){
      MainImg.src = smallimg[3].src;
 }
     </script>
