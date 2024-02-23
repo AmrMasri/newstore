@@ -211,21 +211,29 @@
 
     </footer>
     <script>
-        var MainImg = document.getElementById("mainImg");
+      var MainImg = document.getElementById("mainImg");
         var smallimg = document.getElementsByClassName("small-img");
 
-smallimg[0].onclick = function(){
-      MainImg.src = smallimg[0].src;
-} 
-smallimg[1].onclick = function(){
-     MainImg.src = smallimg[1].src;
-}
-smallimg[2].onclick = function(){
-     MainImg.src = smallimg[2].src;
-}        
-smallimg[3].onclick = function(){
+       /* const test = Array.from(smallimg)
+
+        test.map((item, index) => {
+            item[index].onclick = function(){
+             MainImg.src = smallimg[index].src;
+         } 
+        })*/
+
+ smallimg[0].onclick = function(){
+       MainImg.src = smallimg[0].src;
+ } 
+ smallimg[1].onclick = function(){
+      MainImg.src = smallimg[1].src;
+ }
+ smallimg[2].onclick = function(){
+      MainImg.src = smallimg[2].src;
+ }        
+ smallimg[3].onclick = function(){
      MainImg.src = smallimg[3].src;
-}
+ }
     </script>
 </body>
 </html>
