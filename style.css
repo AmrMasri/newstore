@@ -99,6 +99,24 @@ body {
     position: relative;
 }
 
+#navbar li span{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+
 #navbar li a {
     text-decoration: none;
     font-size: 16px;
