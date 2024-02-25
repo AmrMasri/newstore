@@ -56,7 +56,7 @@ button.normal {
     transition: 0.2s;
 }
 
-button.white {
+button .white {
     font-size: 13px;
     font-weight: 600;
     padding: 11px 18px;
