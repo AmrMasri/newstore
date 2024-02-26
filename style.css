@@ -242,6 +242,7 @@ body {
 
 #product1 {
     text-align: center;
+    transition: transform .5s;
 }
 
 #product1 .pro-container {
@@ -1001,6 +1002,81 @@ footer .deve p {
     padding: 10px;
     font-size: 13px;
 }
+
+/* Add To Cart */
+
+.cartTap {
+    width: 480px;
+    margin-top: 80px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 0 -480px 0 auto;
+    display: grid;
+    grid-template-rows:  70px 1fr 70px;
+    transition: .5s;
+}
+
+body .showCart .cartTap{
+    inset: 0 0 0 auto;
+}
+
+body.showCart #product1{
+    transform: translateX(-250px);
+}
+
+.cartTap h1{
+    padding: 0;
+    margin: 0;
+    color: #eee;
+    font-weight: 300;
+}
+.cartTap .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTap .btn button{
+    background-color: #e88c0e;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTap .btn .close{
+    background-color: #eee;
+}
+
+.cartTap .listCart .item image{
+    width: 100%;
+}
+
+
+    .listCart .quantity span{
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-color: #eee;
+        color: #555;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .listCart .quantity span:nth-child(2){
+        background-color: transparent;
+        color: #eee;
+    }
+
+    .listCart .item:nth-child(even){
+        background-color: #eee1;
+    }
+    .listCart{
+        overflow: auto;
+    }
+
+    .listCart::-webkit-scrollbar{
+        width: 0;
+    }
 
 @media (max-width:799px) {
     .section-p1 {

@@ -8,7 +8,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
-<body>
+<body class="">
 
     <section id="header">
         <a href="#"><img src="./img/logo.png" class="logo" alt=""></a>
@@ -20,9 +20,10 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <div class="icon-cart">
+                <li id="lg-bag"><a href="#"><i class="far fa-shopping-bag"></i></a>
                     <span>0</span></li>
-                <a href="#" id="close"><i class="far fa-times"></i></a>
+                </div>
             </ul>
         </div>
         <div id="mobile">
@@ -299,6 +300,18 @@
     </div>
     </section>
 
+    <div class="cartTap">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+           
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkout">CHECK Out</button>
+        </div>
+    </div>
+
+
     <section id="pagination" class="section-p1">
         <a href="#">1</a>
         <a href="#">2</a>
@@ -371,6 +384,6 @@
 
     </footer>
 
-    <script src='index.js'></script>
+    <script src='app.js'></script>
 </body>
 </html>
