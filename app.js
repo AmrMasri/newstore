@@ -1,4 +1,4 @@
-let iconCart = document.querySelector('.icon-cart');
+/*let iconCart = document.querySelector('.icon-cart');
 let closeCart = document.querySelector('.close');
 let body = document.querySelector('body');
 let listProductHTML = document.querySelector('.pro-container')
@@ -114,4 +114,4 @@ const initApp = () => {
         addDataToHTML();
     })
 }
-initApp();
+initApp(); */
