@@ -1012,12 +1012,13 @@ footer .deve p {
     color: #eee;
     position: fixed;
     inset: 0 -480px 0 auto;
+    /* inset: 0 0px 0 auto; */
     display: grid;
     grid-template-rows:  70px 1fr 70px;
     transition: .5s;
 }
 
-body .showCart .cartTap{
+.cartTapOpen{
     inset: 0 0 0 auto;
 }
 
