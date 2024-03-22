@@ -20,8 +20,11 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a  class="active" href="contact.html">contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
-                <a href="#" id="close"><i class="far fa-times"></i></a>
+                <div class="icon-cart">
+                    <li id="lg-bag">
+                      <a href="#"><i class="far fa-shopping-bag"></i></a> <span>0</span>
+                    </li>
+                  </div>
             </ul>
         </div>
         <div id="mobile">
@@ -68,7 +71,7 @@
     <section id="form-details">
         <form onsubmit="sendEmail(); reset(); return false;">
             <span>LEAVE A MESSAGE</span>
-            <h2>We love to hear from you</h2>
+            <h2>To Work With Us</h2>
             <input type="text" placeholder="Your Name">
             <input type="text" placeholder="E-mail">
             <input type="text" placeholder="Phone">
@@ -156,7 +159,7 @@
 
     </footer>
 
-
+    <script src='app.js'></script>
     <script src='index.js'></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
