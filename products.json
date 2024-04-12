@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/f1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/f2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/f3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/f4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/f5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/f6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/f7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/f8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/n1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/n2.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/n3.jpg"
+    },
+
+    {
+        "id": 12,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/n4.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/n5.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/n6.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/n7.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Adidas",
+        "price": 200,
+        "image": "img/products/n8.jpg"
+    }
+]
